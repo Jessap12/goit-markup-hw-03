@@ -1,0 +1,95 @@
+.logo {
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+}
+.logo span{
+    color:#4D5AE5 ;
+}
+
+ul li {
+    list-style-type: none;
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+}
+
+p {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+ul {
+    padding-inline-start: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    color: blue;    
+}
+
+
+.c1 {
+    background-color:#2E2F42 ;
+}
+
+.c1 h1{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: 1.12px;
+    color: white;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.c2 {
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    color: #2E2F42;
+    text-align: center;
+}
+
+footer {
+    background-color:#2E2F42
+}
+footer p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    color: white;
+}
+footer p:hover{
+    color: blue;
+}
