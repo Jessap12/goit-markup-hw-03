@@ -113,6 +113,10 @@ footer p:hover{
     display: flex;
 }
 
+header{
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
 header.flex{
     justify-content: space-between;
 }
