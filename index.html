@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>homework # 2</title>
-    <link rel="stylesheet" href="\goit-markup-hw-02\css\styles.css">
+    <link rel="stylesheet" href="\goit-markup-hw-03\css\styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <a href="#" class="logo"><span>WEB</span>STUDIO</a>
+    <header class="flex container">
         
-        <nav>
-            <ul>
+        
+        <nav class="flex">
+            <a href="#" class="logo"><span>WEB</span>STUDIO</a>
+
+            <ul class="flex">
                 <li>
                     <a href="#Studio">Studio</a>
                 </li>
@@ -29,7 +32,7 @@
             </ul>
         </nav>
 
-            <ul>
+            <ul class="flex">
                 <li>
                     <a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a>
                 </li>
@@ -49,8 +52,8 @@
             <button type="button">Order Service</button>
         </section>
 
-        <section class="c2">
-            <ul>
+        <section class="c2 section">
+            <ul class="flex container">
                 <li> <b>Strategy</b> 
                 <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
                 </li>
@@ -71,7 +74,7 @@
 
             <h2>What are we doing</h2>
 
-            <ul>
+            <ul class="flex container img1">
                 <li>
                     <img src="images/1.jpg" alt="fig1" width="360px">
                 </li>
@@ -86,31 +89,39 @@
             </ul>
         </section>
 
-        <section class="c3">
+        <section class="c3 section img2">
             <h2>Our Team</h2>
-            <ul>
+            <ul class="flex container img3">
                 <li>
                     <img src="images/1.4.jpg" alt="Mark Guerrero" width="264px">
-                    <p> <b>Mark Guerrero</b> </p>
-                    <p>Product Designer</p>
+                    <div>
+                        <p> <b>Mark Guerrero</b> </p>
+                        <p>Product Designer</p>
+                    </div>
                 </li>
 
                 <li>
                     <img src="images/1.5.jpg" alt="Tom Ford" width="264px">
-                    <p> <b>Tom Ford</b> </p>
-                    <p>Frontend Developer</p>
+                    <div>
+                        <p> <b>Tom Ford</b> </p>
+                        <p>Frontend Developer</p>
+                    </div>    
                 </li>
 
                 <li>
                     <img src="images/1.6.jpg" alt="Camila Garcia" width="264px">
-                    <p> <b>Camila Garcia</b> </p>
-                    <p>Marketing</p>
+                    <div>   
+                        <p> <b>Camila Garcia</b> </p>
+                        <p>Marketing</p>
+                    </div>     
                 </li>
 
                 <li>
                     <img src="images/1.7.jpg" alt="Daniel Wilson" width="264px">
-                    <p> <b>Daniel Wilson</b> </p>
-                    <p>UI Designer</p>
+                    <div>
+                        <p> <b>Daniel Wilson</b> </p>
+                        <p>UI Designer</p>
+                    </div>
                 </li>
             </ul>
 
@@ -119,12 +130,15 @@
     </main>
 
     <footer>
-        <a href="#" class="logo"><span>WEB</span>STUDIO</a>
+        <div class="container">
+            <a href="#" class="logo"><span>WEB</span>STUDIO</a>
 
-        <P>Increase the flow of customers and
-        <br>sales for your business with digital
-        <br>marketing & growth solutions.
-        </P>
+            <P>
+                Increase the flow of customers and
+                <br>sales for your business with digital
+                <br>marketing & growth solutions.
+            </P>
+        </div>
     </footer>
 </body>
 </html>
